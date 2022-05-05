@@ -1,0 +1,52 @@
+/*--------main section Negro Navas----------*/
+.imgBackground{
+    background-image: url(./medios/NEGRO\ BN.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.containerNavas{
+    background-color: #FFFFFF;
+    opacity: 90%;
+    border-radius: 0.4rem;
+}
+/*--------section pinturas y esculturas----------*/
+.containerCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+/*--------------FOOTER------*/
+footer{
+    background-color: black;
+}
+.footerText{
+    color: #FFFFFF;
+}
+
+/*----- Responsive Desing -------*/
+@media screen and (max-width: 800px) {
+    .containerCards{
+        flex-direction: column;
+        align-items: center; 
+    }
+    .containerNavas{
+        height: 26rem;
+        width: 26rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .containerNavas{
+        height: 30rem;
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .containerNavas{
+        height: 40rem;
+        width: 16rem;
+    }
+}
