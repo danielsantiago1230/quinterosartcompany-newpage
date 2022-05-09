@@ -1,3 +1,11 @@
+/*----Header-----------------------*/
+.textHeader{
+    color: #FFFFFF;
+}
+.botones{
+    text-decoration: none;
+}
+
 /*--------main section Negro Navas----------*/
 .imgBackground{
     background-image: url(./medios/NEGRO\ BN.jpg);
