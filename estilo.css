@@ -9,11 +9,11 @@
 
 /*--------main section----------*/
 .imgBackground{
-    background-image: url(./medios/Convocatoria/foto.jpg);
+    background-image: url(./medios/Convocatoria/fondo.png);
     background-attachment: fixed;
     background-size: cover;
 }
-.containerNavas{
+.containerPrincipal{
     background-color: #FFFFFF;
     opacity: 90%;
     border-radius: 0.4rem;
@@ -40,3 +40,8 @@ footer{
 }
 
 /*----- Responsive Desing -------*/
+@media (max-width:400px){
+    .texto{
+        text-align: left;
+    }
+}
