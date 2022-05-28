@@ -1,3 +1,4 @@
+
 /*----Header-----------------------*/
 .textHeader{
     color: #FFFFFF;
@@ -6,7 +7,7 @@
     text-decoration: none;
 }
 
-/*--------main section Negro Navas----------*/
+/*--------main section----------*/
 .imgBackground{
     background-image: url(./medios/Convocatoria/foto.jpg);
     background-attachment: fixed;
@@ -17,7 +18,10 @@
     opacity: 90%;
     border-radius: 0.4rem;
 }
-/*--------section pinturas y esculturas----------*/
+.texto{
+    text-align: justify;
+}
+
 .containerCards{
     display: flex;
     flex-direction: column;
@@ -36,25 +40,3 @@ footer{
 }
 
 /*----- Responsive Desing -------*/
-@media screen and (max-width: 800px) {
-    .containerCards{
-        flex-direction: column;
-        align-items: center; 
-    }
-    .containerNavas{
-        height: 26rem;
-        width: 26rem;
-    }
-}
-@media screen and (max-width: 450px) {
-    .containerNavas{
-        height: 30rem;
-        width: 20rem;
-    }
-}
-@media screen and (max-width: 350px) {
-    .containerNavas{
-        height: 40rem;
-        width: 16rem;
-    }
-}
