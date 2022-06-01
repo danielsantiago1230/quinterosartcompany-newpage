@@ -6,6 +6,9 @@
 .botones{
     text-decoration: none;
 }
+.logo{
+    width: 2rem;
+}
 
 /*--------main section----------*/
 .imgBackground{
